@@ -24,8 +24,28 @@ const Hero = () => {
   const canIncreaseBabies = babies < maxBabies;
 
   const handleCheckAvailability = () => {
-    // This would link to Airbnb with dates
-    const airbnbLink = 'https://www.airbnb.com'; // Replace with actual Airbnb listing link
+    // Build Airbnb URL with dynamic parameters
+    const baseUrl = 'https://www.airbnb.com.br/book/stays/1474636975972695862';
+    const params = new URLSearchParams({
+      numberOfGuests: adults + children,
+      numberOfAdults: adults,
+      numberOfChildren: children,
+      numberOfInfants: babies,
+      numberOfPets: 0,
+      isWorkTrip: false,
+      guestCurrency: 'BRL',
+      productId: '1474636975972695862'
+    });
+
+    // Add dates if selected
+    if (checkIn) {
+      params.append('checkin', format(checkIn, 'yyyy-MM-dd'));
+    }
+    if (checkOut) {
+      params.append('checkout', format(checkOut, 'yyyy-MM-dd'));
+    }
+
+    const airbnbLink = `${baseUrl}?${params.toString()}`;
     window.open(airbnbLink, '_blank');
   };
 

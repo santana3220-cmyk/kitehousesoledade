@@ -42,7 +42,9 @@ const Header = () => {
           {/* Logo */}
           <button
             onClick={() => scrollToSection('hero')}
-            className="text-2xl font-playfair font-bold tracking-wide text-[#2A3C48] hover:text-[#335B63] transition-colors"
+            className={`text-2xl font-playfair font-bold tracking-wide transition-colors ${
+              isScrolled ? 'text-[#2A3C48] hover:text-[#335B63]' : 'text-white hover:text-white/90'
+            }`}
           >
             Kitehouse Soledade
           </button>
@@ -53,7 +55,9 @@ const Header = () => {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-[#2A3C48] hover:text-[#335B63] transition-colors font-medium"
+                className={`font-medium transition-colors ${
+                  isScrolled ? 'text-[#2A3C48] hover:text-[#335B63]' : 'text-white hover:text-white/90'
+                }`}
               >
                 {item.label}
               </button>
@@ -69,7 +73,9 @@ const Header = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="md:hidden text-[#2A3C48] p-2"
+            className={`md:hidden p-2 transition-colors ${
+              isScrolled ? 'text-[#2A3C48]' : 'text-white'
+            }`}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -77,7 +83,7 @@ const Header = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4">
+          <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4 bg-white/95 backdrop-blur-md rounded-lg p-4">
             {menuItems.map((item) => (
               <button
                 key={item.id}
