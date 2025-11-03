@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/kitehousesoledade/static/css/main.54adaac9.css",
-    "main.js": "/kitehousesoledade/static/js/main.6c494332.js",
+    "main.css": "/kitehousesoledade/static/css/main.e1b10873.css",
+    "main.js": "/kitehousesoledade/static/js/main.a92c451a.js",
+    "static/media/front.jpeg": "/kitehousesoledade/static/media/front.1c1460b00350c380fa1a.jpeg",
     "index.html": "/kitehousesoledade/index.html",
-    "main.54adaac9.css.map": "/kitehousesoledade/static/css/main.54adaac9.css.map",
-    "main.6c494332.js.map": "/kitehousesoledade/static/js/main.6c494332.js.map"
+    "main.e1b10873.css.map": "/kitehousesoledade/static/css/main.e1b10873.css.map",
+    "main.a92c451a.js.map": "/kitehousesoledade/static/js/main.a92c451a.js.map"
   },
   "entrypoints": [
-    "static/css/main.54adaac9.css",
-    "static/js/main.6c494332.js"
+    "static/css/main.e1b10873.css",
+    "static/js/main.a92c451a.js"
   ]
 }
