@@ -1,14 +1,16 @@
 {
   "files": {
-    "main.css": "/kitehousesoledade/static/css/main.e1b10873.css",
-    "main.js": "/kitehousesoledade/static/js/main.a92c451a.js",
+    "main.css": "/kitehousesoledade/static/css/main.f1aabc95.css",
+    "main.js": "/kitehousesoledade/static/js/main.64e988eb.js",
     "static/media/front.jpeg": "/kitehousesoledade/static/media/front.1c1460b00350c380fa1a.jpeg",
+    "static/media/logo-no-bg-white.svg": "/kitehousesoledade/static/media/logo-no-bg-white.5ab7c0b4c3b842d5133449c7d9201704.svg",
+    "static/media/logo-no-bg.svg": "/kitehousesoledade/static/media/logo-no-bg.ed414fd53468c049360d76c969be5e88.svg",
     "index.html": "/kitehousesoledade/index.html",
-    "main.e1b10873.css.map": "/kitehousesoledade/static/css/main.e1b10873.css.map",
-    "main.a92c451a.js.map": "/kitehousesoledade/static/js/main.a92c451a.js.map"
+    "main.f1aabc95.css.map": "/kitehousesoledade/static/css/main.f1aabc95.css.map",
+    "main.64e988eb.js.map": "/kitehousesoledade/static/js/main.64e988eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1b10873.css",
-    "static/js/main.a92c451a.js"
+    "static/css/main.f1aabc95.css",
+    "static/js/main.64e988eb.js"
   ]
 }
