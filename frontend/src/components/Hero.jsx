@@ -5,6 +5,7 @@ import { Button } from './ui/button';
 import { Calendar as CalendarIcon, Users, Minus, Plus } from 'lucide-react';
 import { format } from 'date-fns';
 import { pt } from 'date-fns/locale';
+import bgHero from '../images/front.jpeg'
 
 const Hero = () => {
   const [checkIn, setCheckIn] = useState(null);
@@ -63,7 +64,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: `url('https://customer-assets.emergentagent.com/job_e9460a1c-3541-43e5-b89c-f6f4bb5a1364/artifacts/6bt9fk4e_Enjoy%20your%20vacation%20in%20kitesurfing%20paradise%21%20%23kitesurfing%20%23praiadesoledade%20%23brazil%20%23vacation.jpg')`,
+          backgroundImage: `url('${bgHero}')`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>

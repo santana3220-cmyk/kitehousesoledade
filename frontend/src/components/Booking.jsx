@@ -58,7 +58,7 @@ Hóspedes:
 - Crianças: ${children}
 - Bebês: ${babies}`;
 
-    const whatsappUrl = `https://wa.me/5581997739787?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/558199773987?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
 
     toast({
@@ -305,7 +305,7 @@ Hóspedes:
 
           <Button
             type="submit"
-            className="w-full h-14 bg-[#F2B705] hover:bg-[#d9a504] text-[#2A3C48] font-bold text-lg rounded-full transition-all"
+            className="w-full h-14 bg-[#F2B705] hover:bg-[#d9a504] text-[#2A3C48] font-bold text-sm lg:text-lg rounded-full transition-all"
           >
             Solicitar Reserva via WhatsApp
           </Button>

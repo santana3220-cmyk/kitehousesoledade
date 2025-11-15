@@ -16,7 +16,7 @@ const Contact = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden shadow-xl h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.5656789!2d-35.1234!3d-5.6789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNcKwNDAnNDQuMCJTIDM1wrAwNyczNi4wIlc!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d248.38251347017956!2d-36.51932391140343!3d-5.08425332241195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1762212840284!5m2!1sen!2sbr"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -26,6 +26,7 @@ const Contact = () => {
               title="Localização Kitehouse Soledade"
             ></iframe>
           </div>
+
 
           {/* Contact Info */}
           <div className="flex flex-col justify-center space-y-8">
@@ -55,7 +56,7 @@ const Contact = () => {
                 <h3 className="text-xl font-bold text-[#2A3C48] mb-2">WhatsApp</h3>
                 <p className="text-gray-700 mb-3">Entre em contato direto com a gente</p>
                 <Button
-                  onClick={() => window.open('https://wa.me/5581997739787', '_blank')}
+                  onClick={() => window.open('https://wa.me/558199773987', '_blank')}
                   className="bg-[#25D366] hover:bg-[#20bd5a] text-white font-semibold rounded-full"
                 >
                   Falar no WhatsApp

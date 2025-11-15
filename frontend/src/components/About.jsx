@@ -1,33 +1,41 @@
 import React from 'react';
-import { Sunset, Utensils, Bed, Palmtree, Sun, Leaf } from 'lucide-react';
+import { Sunset, Utensils, Bed, Palmtree, Sun, Leaf, ShowerHead, Flame } from 'lucide-react';
 
 const About = () => {
-  const features = [
-    {
-      icon: <Sunset className="w-8 h-8" />,
-      text: 'Varanda com vista para o pôr do sol'
-    },
-    {
-      icon: <Utensils className="w-8 h-8" />,
-      text: 'Mesa em madeira maciça para 8 pessoas'
-    },
-    {
-      icon: <Bed className="w-8 h-8" />,
-      text: 'Acomoda até 6 pessoas + 5 bebês'
-    },
-    {
-      icon: <Palmtree className="w-8 h-8" />,
-      text: 'Próxima à praia e aos melhores ventos do RN'
-    },
-    {
-      icon: <Sun className="w-8 h-8" />,
-      text: 'Sala de estar vibrante e iluminada'
-    },
-    {
-      icon: <Leaf className="w-8 h-8" />,
-      text: 'Decoração natural e artesanal'
-    }
-  ];
+const features = [
+  {
+    icon: <Bed className="w-8 h-8" />,
+    text: '2 suítes confortáveis com ar-condicionado'
+  },
+  {
+    icon: <ShowerHead className="w-8 h-8" />,
+    text: 'Chuveiros quentes para relaxar após o mar'
+  },
+  {
+    icon: <Sun className="w-8 h-8" />,
+    text: 'Piscina privativa perfeita para dias ensolarados'
+  },
+  {
+    icon: <Utensils className="w-8 h-8" />,
+    text: 'Cozinha equipada para preparar suas refeições favoritas'
+  },
+  {
+    icon: <Flame className="w-8 h-8" />,
+    text: 'Varanda gourmet com churrasqueira e área social'
+  },
+  {
+    icon: <Sunset className="w-8 h-8" />,
+    text: 'Varanda com vista incrível para o pôr do sol'
+  },
+  {
+    icon: <Palmtree className="w-8 h-8" />,
+    text: 'Localização próxima à praia e aos melhores ventos do RN'
+  },
+  {
+    icon: <Leaf className="w-8 h-8" />,
+    text: 'Decoração natural e artesanal, com toque rústico e aconchegante'
+  }
+];
 
   return (
     <section id="about" className="py-24 bg-[#F7F6F3]">
@@ -51,9 +59,7 @@ const About = () => {
               Conforto rústico, vento constante e o pôr do sol mais bonito de Soledade.
             </h2>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              A Kitehouse Soledade foi projetada para quem busca uma estadia autêntica, conectada à natureza e ao estilo de vida do kitesurf.
-              Seu design combina madeira, luz natural e tons terrosos com toques de cor e descontração.
-              Uma varanda gourmet com mesa em jaqueira, sala colorida e quartos acolhedores tornam cada momento inesquecível.
+              Desfrute de dias inesquecíveis nesta charmosa casa com 2 suítes espaçosas, ambas equipadas com ar-condicionado e chuveiro quente, garantindo bem-estar em qualquer estação.
             </p>
 
             {/* Features Grid */}

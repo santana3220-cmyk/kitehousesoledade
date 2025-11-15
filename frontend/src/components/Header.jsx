@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Button } from './ui/button';
+import logoWhite from '../images/logo-no-bg-white.svg';
+import logoBlack from '../images/logo-no-bg.svg';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -40,14 +42,14 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <button
+          <img
+            src={isScrolled ? logoBlack : logoWhite}
+            alt="Kitehouse Soledade Logo"
+            className="h-24 -my-4 cursor-pointer"
             onClick={() => scrollToSection('hero')}
-            className={`text-2xl font-playfair font-bold tracking-wide transition-colors ${
-              isScrolled ? 'text-[#2A3C48] hover:text-[#335B63]' : 'text-white hover:text-white/90'
-            }`}
           >
-            Kitehouse Soledade
-          </button>
+            
+          </img>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
